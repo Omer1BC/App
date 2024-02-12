@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar"
+        android:backgroundTint="#FF9800"
+        android:id="@+id/leftLinear"
+        android:padding="8dp"
+
+        android:layout_marginEnd="80dp">
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is an example"
+            android:textSize="16sp"
+            android:id="@+id/left"
+            android:textColor="@color/white"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar"
+        android:backgroundTint="#8484F4"
+        android:id="@+id/rightLinear"
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is an example"
+            android:textSize="16sp"
+            android:id="@+id/right"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+        
+
+</RelativeLayout>

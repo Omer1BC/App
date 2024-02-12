@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Messaging">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"  >
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_above="@+id/bottom_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_layout">
+
+        <EditText
+            android:id="@+id/sendBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/send"
+            android:background="@drawable/bar"
+            android:hint="Send Gino a message"
+            android:padding="16dp">
+
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24"
+            />
+    </RelativeLayout>
+        
+
+</RelativeLayout>
