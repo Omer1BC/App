@@ -2,7 +2,7 @@ Summary
 -
 Designed a social media app centered around food. Features menu items in the form of cards, and a messaging and shorts feature
 
-Description
+Technology
 -
 Primarily Java backend. The UI is designed in xml with various views to support each page. The app uses AndroidX, Google Material Design, and Picasso libraries to create elements of a page. 
 
